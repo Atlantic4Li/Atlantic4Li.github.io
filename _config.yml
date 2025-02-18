@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Xiyang Li / Site Title"
+title                    : "Xiyang Li / Personal Homepage"
 title_separator          : "-"
 name                     : &name "Xiyang Li"
 description              : &description "personal description"
@@ -27,7 +27,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Earth"
-  employer         : "Red Brick University"
+  employer         : "Wuhan University"
   uri              : # URL
   email            : "lixiyang@whu.edu.cn" 
 
