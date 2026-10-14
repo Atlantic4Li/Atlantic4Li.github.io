@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Xiyang Li / Personal Homepage"
 title_separator          : "-"
 name                     : &name "Xiyang Li"
-description              : &description "personal description"
+description              : &description "Xiyang Li at Wuhan University. Multimodal learning and generation."
 url                      : https://atlantic4li.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Atlantic4Li/Atlantic4Li.github.io"
@@ -25,19 +25,19 @@ author:
   avatar           : "profile.png"
   name             : "Xiyang Li"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  bio              : "Multimodal learning and generation"
+  location         : "Wuhan, China"
   employer         : "Wuhan University"
   uri              : # URL
   email            : "lixiyang@whu.edu.cn" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=F-h0VPMAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            :
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           :
   researchgate     : # URL
   scopus           : # URL
 
@@ -45,12 +45,12 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "Atlantic4Li"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          :  # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -155,9 +155,20 @@ analytics:
 # Reading Files
 include:
   - .htaccess
-  - _pages
   - files
 exclude:
+  - _pages
+  - _posts
+  - _publications
+  - _portfolio
+  - _talks
+  - _teaching
+  - markdown_generator
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
+  - scripts
+  - HOMEPAGE.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -214,16 +225,16 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
